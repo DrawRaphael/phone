@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div>
+    <form action="{:U('Admin/Index/call_upload')}">
+        <label>标题：</label><br/>
+        <input type="text" name="title" required><br/>
+        <label>联系电话：</label><br/>
+        <input type="number" name="tel" required><br/>
+        <label>邮箱：</label><br/>
+        <input type="email" name="email" required><br/>
+        <label>地址：</label><br/>
+        <input type="text" name="address" required><br/>
+        <label>公司二维码：</label><br/>
+        <input type="file" name="file"><br/>
+        <label>网站信息：</label><br/>
+        <input type="text" name="web" required><br/>
+        <input type="submit" style="margin-top: 20px">
+    </form>
+</div>
+</body>
+</html>
